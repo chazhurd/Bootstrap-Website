@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-md navbar-light sticky-top bg-light">
+            <div class="container-xxl">
+                <a href="#intro" class="navbar-brand">
+                    <span class="fw-bold text-secondary">
+                        <img src="" alt="" class="src">>
+                    </span>
+                </a>
+                <!-- toggle button for mobile   -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#main-nav" aria-controls="main-nav" aria-controls="main-nav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                </span>
+                </button>
+
+                <!-- navbar links -->
+                <div class="collapse navbar-collapse justify-content-end align-center" id='main-nav'>
+                    <ul class="navbar-nav">
+                        <li class='nav-item'>
+                            <a class="nav-link" href="#topics">SRA</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class="nav-link" href="#reviews">Policies</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class="nav-link" href="#contact">Training</a>
+                        </li>
+                        <li class='nav-item ms-2 d-none d-md-inline'>
+                            <a class="btn btn-secondary" href="#pricing">View Demo</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+    <div class="container my-5">
+        <h2>Normal Container</h2>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore unde labore quis modi laudantium exercitationem aut ab a facere sint dignissimos voluptatibus dolor ea earum, odit alias odio sapiente omnis.
+    </div>
+
+
+    <div class="container-fluid">
+        <h2>Fluid Container</h2>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem distinctio sapiente nihil. Perspiciatis eligendi ab, incidunt exercitationem corrupti tenetur officia nam. Accusantium cum tempora itaque sunt quo nulla. Non, temporibus?
+    </div>
+
+
+    <div class="container-lg my-5">
+        <h2>100% width until lg screens then container</h2>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, rerum? Dolor distinctio neque deleniti! Temporibus quis repellendus quam praesentium delectus iste, nemo natus, error incidunt quasi obcaecati, quisquam molestiae doloribus?
+    </div>
+
+    <div class="container-xl my-5">
+        <h2>100% width until x-lg screens then container</h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem cumque odit aut nisi unde aliquid aperiam repellat, totam veniam molestias in corporis animi quam qui labore eos, magnam repellendus quae.
+    </div>
+
+    <div class="container-lg my-5">
+        <h2>Basic Grid</h2>
+        <div class="row">
+            <div class="col">
+                <div class="p-5 bg-primary text-light">Col1</div>
+            </div>
+            <div class="col">
+                <div class="p-5 bg-warning text-light">Col2</div>
+            </div>
+            <div class="col">
+                <div class="p-5 bg-success text-light">Col3</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-lg my-5">
+        <h2>Custom Column Width</h2>
+        <div class="row">
+            <!-- As long as all the columns add up to 12 its ok -->
+            <div class="col-6">
+                <div class="p-5 bg-primary text-light">Col1</div>
+            </div>
+            <div class="col-2">
+                <div class="p-5 bg-warning text-light">Col2</div>
+            </div>
+            <div class="col-4">
+                <div class="p-5 bg-success text-light">Col3</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-lg my-5">
+        <h2>Custom Column Width</h2>
+        <div class="row">
+            <!-- As long as all the columns add up to 12 its ok -->
+            <div class="col-6">
+                <div class="p-5 bg-primary text-light">Col1</div>
+            </div>
+            <div class="col-2">
+                <div class="p-5 bg-warning text-light">Col2</div>
+            </div>
+            <div class="col-4">
+                <div class="p-5 bg-success text-light">Col3</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-lg my-5">
+        <h2> Responsive Custom Column Width</h2>
+        <div class="row">
+            <!-- As long as all the columns add up to 12 its ok -->
+            <div class="col-sm-4 col-lg-6">
+                <div class="p-5 bg-primary text-light">Col1</div>
+            </div>
+            <div class="col-sm-4 col-lg-2">
+                <div class="p-5 bg-warning text-light">Col2</div>
+            </div>
+            <div class="col-sm-4 col-lg-4">
+                <div class="p-5 bg-success text-light">Col3</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-lg my-5">
+        <h2>Justifying Columns</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-3">
+                <div class="p-5 bg-primary text-danger">Col1</div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-5 bg-primary text-danger">Col2</div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-5 bg-primary text-danger">Col3</div>
+            </div>
+        </div>
+        <div class="row justify-content-between">
+            <div class="col-md-3">
+                <div class="p-5 bg-warning text-danger">Col1</div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-5 bg-warning text-danger">Col2</div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-5 bg-warning text-danger">Col3</div>
+            </div>
+        </div>
+    </div>
+
+<!-- Main image and intro -->
+    <section id='intro'>
+        <div class="container-lg">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-5 text-center text-md-start">
+                    <h1>
+                        <div class="display-2">Medcurity</div>
+                        <div class="display-5 text-muted">HIPAA Compliance Platform</div>
+                    </h1>
+                    <p class="lead my-4 text-muted">Protect your organization and your patients’ information. With Medcurity, you can build or complement your HIPAA Privacy and Security program with the most intuitive tools and helpful guidance available.</p>
+                    <a href="#pricing" class="btn btn-secondary btn-lg m-2">Start Now</a>
+                </div>
+                <div class="col-md-5 text-center">
+                    <img class="img-fluid" src="assets/laravel.jpg" alt="book cver" class="src">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
