@@ -7,8 +7,8 @@ $light: #f4f8fa;
 @import "../node_modules/bootstrap/scss/variables";
 
 $custom-theme-colors:(
- "altlight": #e3f7f8,
- "altdark":#1f74a5
+ "altlight": #eee0e0,
+ "altdark":#bb1010
 );
 
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);
